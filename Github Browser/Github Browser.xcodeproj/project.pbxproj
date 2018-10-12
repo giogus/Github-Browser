@@ -12,6 +12,7 @@
 		59DAE8F721714B6D001796C6 /* RequestResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE8F621714B6D001796C6 /* RequestResultType.swift */; };
 		59DAE8F921714B87001796C6 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE8F821714B87001796C6 /* RequestError.swift */; };
 		59DAE8FB21714BAC001796C6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE8FA21714BAC001796C6 /* String+Extension.swift */; };
+		59DAE8FD21714C71001796C6 /* URLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE8FC21714C71001796C6 /* URLUtil.swift */; };
 		ACB5CE3A373CCEB21BEE39BA /* Pods_Github_BrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F790905B9497F0BDCB1BCB99 /* Pods_Github_BrowserUITests.framework */; };
 		DDEA69C6216F7C4D004BED2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA69C5216F7C4D004BED2A /* AppDelegate.swift */; };
 		DDEA69CD216F7C4F004BED2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEA69CC216F7C4F004BED2A /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		59DAE8F621714B6D001796C6 /* RequestResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResultType.swift; sourceTree = "<group>"; };
 		59DAE8F821714B87001796C6 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		59DAE8FA21714BAC001796C6 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		59DAE8FC21714C71001796C6 /* URLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLUtil.swift; sourceTree = "<group>"; };
 		62221685DA323468DB7B0085 /* Pods-Github Browser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Browser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Github Browser/Pods-Github Browser.debug.xcconfig"; sourceTree = "<group>"; };
 		B603FFA693745F9535EA6E28 /* Pods_Github_Browser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_Browser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEA69C2216F7C4D004BED2A /* Github Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,6 +167,7 @@
 		59DAE8EA21711337001796C6 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				59DAE8FC21714C71001796C6 /* URLUtil.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -535,6 +538,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DAE8F921714B87001796C6 /* RequestError.swift in Sources */,
+				59DAE8FD21714C71001796C6 /* URLUtil.swift in Sources */,
 				59DAE8F521714B45001796C6 /* APIWorker.swift in Sources */,
 				59DAE8F721714B6D001796C6 /* RequestResultType.swift in Sources */,
 				59DAE8FB21714BAC001796C6 /* String+Extension.swift in Sources */,
