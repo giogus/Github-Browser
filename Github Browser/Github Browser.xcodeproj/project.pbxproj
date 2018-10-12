@@ -14,6 +14,13 @@
 		59DAE8FB21714BAC001796C6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE8FA21714BAC001796C6 /* String+Extension.swift */; };
 		59DAE8FD21714C71001796C6 /* URLUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE8FC21714C71001796C6 /* URLUtil.swift */; };
 		59DAE8FF21714E39001796C6 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE8FE21714E39001796C6 /* Repository.swift */; };
+		59DAE90121715131001796C6 /* SearchRepositoriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE90021715131001796C6 /* SearchRepositoriesPresenter.swift */; };
+		59DAE90321715140001796C6 /* SearchRepositoriesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE90221715140001796C6 /* SearchRepositoriesWorker.swift */; };
+		59DAE9052171514F001796C6 /* SearchRepositoriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE9042171514F001796C6 /* SearchRepositoriesRouter.swift */; };
+		59DAE90721715161001796C6 /* SearchRepositoriesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE90621715161001796C6 /* SearchRepositoriesModels.swift */; };
+		59DAE90921715185001796C6 /* SearchRepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE90821715185001796C6 /* SearchRepositoriesViewController.swift */; };
+		59DAE90B21715195001796C6 /* SearchRepositoriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE90A21715195001796C6 /* SearchRepositoriesInteractor.swift */; };
+		59DAE90D217151A6001796C6 /* SearchRepositories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE90C217151A6001796C6 /* SearchRepositories.storyboard */; };
 		ACB5CE3A373CCEB21BEE39BA /* Pods_Github_BrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F790905B9497F0BDCB1BCB99 /* Pods_Github_BrowserUITests.framework */; };
 		DDEA69C6216F7C4D004BED2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA69C5216F7C4D004BED2A /* AppDelegate.swift */; };
 		DDEA69CD216F7C4F004BED2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEA69CC216F7C4F004BED2A /* Assets.xcassets */; };
@@ -52,6 +59,13 @@
 		59DAE8FA21714BAC001796C6 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		59DAE8FC21714C71001796C6 /* URLUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLUtil.swift; sourceTree = "<group>"; };
 		59DAE8FE21714E39001796C6 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		59DAE90021715131001796C6 /* SearchRepositoriesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesPresenter.swift; sourceTree = "<group>"; };
+		59DAE90221715140001796C6 /* SearchRepositoriesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesWorker.swift; sourceTree = "<group>"; };
+		59DAE9042171514F001796C6 /* SearchRepositoriesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesRouter.swift; sourceTree = "<group>"; };
+		59DAE90621715161001796C6 /* SearchRepositoriesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesModels.swift; sourceTree = "<group>"; };
+		59DAE90821715185001796C6 /* SearchRepositoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesViewController.swift; sourceTree = "<group>"; };
+		59DAE90A21715195001796C6 /* SearchRepositoriesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesInteractor.swift; sourceTree = "<group>"; };
+		59DAE90C217151A6001796C6 /* SearchRepositories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchRepositories.storyboard; sourceTree = "<group>"; };
 		62221685DA323468DB7B0085 /* Pods-Github Browser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Browser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Github Browser/Pods-Github Browser.debug.xcconfig"; sourceTree = "<group>"; };
 		B603FFA693745F9535EA6E28 /* Pods_Github_Browser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_Browser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEA69C2216F7C4D004BED2A /* Github Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +209,13 @@
 		59DAE8ED217113C4001796C6 /* SearchRepositories */ = {
 			isa = PBXGroup;
 			children = (
+				59DAE90021715131001796C6 /* SearchRepositoriesPresenter.swift */,
+				59DAE90221715140001796C6 /* SearchRepositoriesWorker.swift */,
+				59DAE9042171514F001796C6 /* SearchRepositoriesRouter.swift */,
+				59DAE90621715161001796C6 /* SearchRepositoriesModels.swift */,
+				59DAE90821715185001796C6 /* SearchRepositoriesViewController.swift */,
+				59DAE90A21715195001796C6 /* SearchRepositoriesInteractor.swift */,
+				59DAE90C217151A6001796C6 /* SearchRepositories.storyboard */,
 			);
 			path = SearchRepositories;
 			sourceTree = "<group>";
@@ -421,6 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59DAE90D217151A6001796C6 /* SearchRepositories.storyboard in Resources */,
 				DDEA69D0216F7C4F004BED2A /* LaunchScreen.storyboard in Resources */,
 				DDEA69CD216F7C4F004BED2A /* Assets.xcassets in Resources */,
 			);
@@ -542,10 +564,16 @@
 			files = (
 				59DAE8FF21714E39001796C6 /* Repository.swift in Sources */,
 				59DAE8F921714B87001796C6 /* RequestError.swift in Sources */,
+				59DAE90721715161001796C6 /* SearchRepositoriesModels.swift in Sources */,
+				59DAE9052171514F001796C6 /* SearchRepositoriesRouter.swift in Sources */,
+				59DAE90B21715195001796C6 /* SearchRepositoriesInteractor.swift in Sources */,
 				59DAE8FD21714C71001796C6 /* URLUtil.swift in Sources */,
 				59DAE8F521714B45001796C6 /* APIWorker.swift in Sources */,
 				59DAE8F721714B6D001796C6 /* RequestResultType.swift in Sources */,
+				59DAE90321715140001796C6 /* SearchRepositoriesWorker.swift in Sources */,
 				59DAE8FB21714BAC001796C6 /* String+Extension.swift in Sources */,
+				59DAE90121715131001796C6 /* SearchRepositoriesPresenter.swift in Sources */,
+				59DAE90921715185001796C6 /* SearchRepositoriesViewController.swift in Sources */,
 				DDEA69C6216F7C4D004BED2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
