@@ -1,0 +1,20 @@
+platform :ios, '9.0'
+
+target 'Github Browser' do
+  use_frameworks!
+
+  # Pods for Github Browser
+  pod 'Alamofire'
+  pod 'AlamofireImage'
+
+  target 'Github BrowserTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'Github BrowserUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

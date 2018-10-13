@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  Github Browser
+
+  Created by Gustavo Severo on 12/10/18.
+  Copyright © 2018 Gustavo Severo. All rights reserved.
+*/
+
+// MARK: English
+
+// Common Strings
+"Created by" = "Created by";
+"OK" = "OK";
+
+// Search Repositories
+"Language" = "Language";
+
+// Empty Repositories Message
+"We could not found any repository for the selected language." = "We could not found any repository for the selected language.";
+
+// Networking Errors
+"Error" = "Error";
+"Attention" = "Attention";
+"Decode Error" = "Decode Error";
+"The URL is invalid" = "The URL is invalid";
+"The request has returned an empty data." = "The request has returned an empty data.";
+"An error occurred when the JSON was decoded." = "An error occurred when the JSON was decoded.";
+"The request has failed with the status code" = "The request has failed with the status code";
+"A generic error occurred. Try again later." = "A generic error occurred. Try again later.";
