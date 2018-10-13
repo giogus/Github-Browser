@@ -4,4 +4,4 @@ env:
   global:
   - IOS_SDK=iphonesimulator12.0
 script:
-  - xcodebuild -workspace Github\ Browser.xcworkspace -scheme 'Debug' -sdk $IOS_SDK build analyze
+  - xcodebuild -workspace Github\ Browser.xcworkspace -sdk $IOS_SDK build analyze
