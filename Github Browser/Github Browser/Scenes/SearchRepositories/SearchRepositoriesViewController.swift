@@ -124,6 +124,7 @@ extension SearchRepositoriesViewController {
     
     func tableViewSetupOnLoad(){
         tableView.tableFooterView = UIView()
+        navigationItem.title = "Repositories".localized
     }
     
     func registerNibsOnLoad(){

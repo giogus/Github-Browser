@@ -9,10 +9,12 @@
 // MARK: Portuguese
 
 // Common Strings
+"Loading" = "Carregando";
 "Created by" = "Criado por";
 "OK" = "OK, entendi";
 
 // Search Repositories
+"Repositories" = "Repositórios";
 "Language" = "Linguagem";
 
 // Empty Repositories Message

@@ -10,6 +10,11 @@ import UIKit
 
 class LoadingViewController: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var loadingLabel: UILabel! {
+        didSet {
+            loadingLabel.text = "Loading".localized
+        }
+    }
     
     static let shared = UIStoryboard(name: "LoadingView", bundle: nil).instantiateViewController(withIdentifier: "LoadingViewController")
 }
