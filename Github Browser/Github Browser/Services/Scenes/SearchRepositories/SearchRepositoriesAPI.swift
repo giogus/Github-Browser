@@ -19,7 +19,8 @@ class SearchRepositoriesAPI: SearchRepositoriesStore, APIWorkerProtocol {
     typealias Entity = SearchRepositories.FetchRepositories.Response
     
     func fetchRepositories(completion: @escaping (RequestResultType<Entity>) -> ()){
-        let url = URLUtil.path(for: .repositories(request.language, request.page))
+        let languageNormalized = request.language.normalizedString
+        let url = URLUtil.path(for: .repositories(languageNormalized, request.page))
         let apiWorker = APIWorker(with: url)
         apiWorker.getData(completion)
     }

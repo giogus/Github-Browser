@@ -16,4 +16,14 @@ extension String {
     var url: URL {
         return URL(string: self)!
     }
+    
+    var normalizedString: String {
+        return self.folding(options: .diacriticInsensitive, locale: .current).lowercased()
+            .replacingOccurrences(of: "\n", with: "-")
+            .replacingOccurrences(of: " ", with: "-")
+            .replacingOccurrences(of: ".", with: "-")
+            .replacingOccurrences(of: ",", with: "-")
+            .replacingOccurrences(of: "ª", with: "")
+            .replacingOccurrences(of: "([-_]){2,}\\B", with: "", options: .regularExpression)
+    }
 }
