@@ -32,7 +32,6 @@
 		59DAE926217175E7001796C6 /* EmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE924217175E7001796C6 /* EmptyTableViewCell.xib */; };
 		59DAE92921717D63001796C6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE92B21717D63001796C6 /* Localizable.strings */; };
 		59DAE92F217204E3001796C6 /* DetailRepositoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE92E217204E3001796C6 /* DetailRepositoryPresenter.swift */; };
-		59DAE931217204F4001796C6 /* DetailRepositoryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE930217204F4001796C6 /* DetailRepositoryWorker.swift */; };
 		59DAE93321720507001796C6 /* DetailRepositoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE93221720507001796C6 /* DetailRepositoryRouter.swift */; };
 		59DAE93521720510001796C6 /* DetailRepositoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE93421720510001796C6 /* DetailRepositoryModels.swift */; };
 		59DAE9372172051D001796C6 /* DetailRepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE9362172051D001796C6 /* DetailRepositoryViewController.swift */; };
@@ -40,6 +39,7 @@
 		59DAE93B2172052E001796C6 /* DetailRepository.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE93A2172052E001796C6 /* DetailRepository.storyboard */; };
 		59DAE93D21720771001796C6 /* Readme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE93C21720771001796C6 /* Readme.swift */; };
 		59DAE93F21720B52001796C6 /* DetailRepositoryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE93E21720B52001796C6 /* DetailRepositoryAPI.swift */; };
+		59DAE94121721761001796C6 /* DetailRepositoryWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE94021721760001796C6 /* DetailRepositoryWorker.swift */; };
 		ACB5CE3A373CCEB21BEE39BA /* Pods_Github_BrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F790905B9497F0BDCB1BCB99 /* Pods_Github_BrowserUITests.framework */; };
 		DDEA69C6216F7C4D004BED2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA69C5216F7C4D004BED2A /* AppDelegate.swift */; };
 		DDEA69CD216F7C4F004BED2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEA69CC216F7C4F004BED2A /* Assets.xcassets */; };
@@ -98,7 +98,6 @@
 		59DAE92C21717D73001796C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		59DAE92D21717D74001796C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		59DAE92E217204E3001796C6 /* DetailRepositoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepositoryPresenter.swift; sourceTree = "<group>"; };
-		59DAE930217204F4001796C6 /* DetailRepositoryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailRepositoryWorker.swift; path = "/Users/giogus/Github-Browser/Github Browser/Github Browser/Scenes/DetailRepository/DetailRepositoryWorker.swift"; sourceTree = "<absolute>"; };
 		59DAE93221720507001796C6 /* DetailRepositoryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepositoryRouter.swift; sourceTree = "<group>"; };
 		59DAE93421720510001796C6 /* DetailRepositoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepositoryModels.swift; sourceTree = "<group>"; };
 		59DAE9362172051D001796C6 /* DetailRepositoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepositoryViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +105,7 @@
 		59DAE93A2172052E001796C6 /* DetailRepository.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailRepository.storyboard; sourceTree = "<group>"; };
 		59DAE93C21720771001796C6 /* Readme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readme.swift; sourceTree = "<group>"; };
 		59DAE93E21720B52001796C6 /* DetailRepositoryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRepositoryAPI.swift; sourceTree = "<group>"; };
+		59DAE94021721760001796C6 /* DetailRepositoryWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailRepositoryWorker.swift; path = "/Users/giogus/Github-Browser/Github Browser/Github Browser/Workers/DetailRepositoryWorker.swift"; sourceTree = "<absolute>"; };
 		62221685DA323468DB7B0085 /* Pods-Github Browser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Browser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Github Browser/Pods-Github Browser.debug.xcconfig"; sourceTree = "<group>"; };
 		B603FFA693745F9535EA6E28 /* Pods_Github_Browser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_Browser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEA69C2216F7C4D004BED2A /* Github Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,7 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				59DAE92E217204E3001796C6 /* DetailRepositoryPresenter.swift */,
-				59DAE930217204F4001796C6 /* DetailRepositoryWorker.swift */,
+				59DAE94021721760001796C6 /* DetailRepositoryWorker.swift */,
 				59DAE93221720507001796C6 /* DetailRepositoryRouter.swift */,
 				59DAE93421720510001796C6 /* DetailRepositoryModels.swift */,
 				59DAE9362172051D001796C6 /* DetailRepositoryViewController.swift */,
@@ -679,7 +679,6 @@
 				59DAE91321716657001796C6 /* UIAlertController+Extension.swift in Sources */,
 				59DAE9372172051D001796C6 /* DetailRepositoryViewController.swift in Sources */,
 				59DAE92F217204E3001796C6 /* DetailRepositoryPresenter.swift in Sources */,
-				59DAE931217204F4001796C6 /* DetailRepositoryWorker.swift in Sources */,
 				59DAE8F521714B45001796C6 /* APIWorker.swift in Sources */,
 				59DAE8F721714B6D001796C6 /* RequestResultType.swift in Sources */,
 				59DAE90321715140001796C6 /* SearchRepositoriesWorker.swift in Sources */,
@@ -691,6 +690,7 @@
 				59DAE925217175E7001796C6 /* EmptyTableViewCell.swift in Sources */,
 				59DAE918217166C6001796C6 /* SearchRepositoriesAPI.swift in Sources */,
 				DDEA69C6216F7C4D004BED2A /* AppDelegate.swift in Sources */,
+				59DAE94121721761001796C6 /* DetailRepositoryWorker.swift in Sources */,
 				59DAE93F21720B52001796C6 /* DetailRepositoryAPI.swift in Sources */,
 				59DAE93521720510001796C6 /* DetailRepositoryModels.swift in Sources */,
 				59DAE93D21720771001796C6 /* Readme.swift in Sources */,

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/giogus/Github-Browser/Github Browser/Github Browser/Scenes/DetailRepository/DetailRepositoryWorker.swift">
-   </FileRef>
-   <FileRef
       location = "group:Github Browser.xcodeproj">
    </FileRef>
    <FileRef
