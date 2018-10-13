@@ -34,7 +34,6 @@ extension APIWorker {
                 return
         }
         
-        
         Alamofire.request(url, method: .get, encoding: JSONEncoding.default).validate(statusCode: 200..<300).responseJSON { response in
             
             switch response.result {

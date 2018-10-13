@@ -12,13 +12,13 @@ let baseURL = "https://api.github.com"
 
 enum Endpoints {
     case repositories (String, Int)
-    case pullRequests (String, String)
+    case readme (String, String)
     
     var path: String {
         switch self {
         case .repositories(let language, let pageNumber):
             return "/search/repositories?q=language:\(language)&sort=stars&page=\(pageNumber)"
-        case .pullRequests(let authorName, let repositoryName):
+        case .readme(let authorName, let repositoryName):
             return "/repos/\(authorName)/\(repositoryName)/readme"
         }
     }
