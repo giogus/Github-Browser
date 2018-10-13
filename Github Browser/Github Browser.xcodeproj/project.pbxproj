@@ -23,6 +23,14 @@
 		59DAE90D217151A6001796C6 /* SearchRepositories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE90C217151A6001796C6 /* SearchRepositories.storyboard */; };
 		59DAE91021715991001796C6 /* SearchRepositoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE90E21715991001796C6 /* SearchRepositoriesTableViewCell.swift */; };
 		59DAE91121715991001796C6 /* SearchRepositoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE90F21715991001796C6 /* SearchRepositoriesTableViewCell.xib */; };
+		59DAE91321716657001796C6 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE91221716657001796C6 /* UIAlertController+Extension.swift */; };
+		59DAE918217166C6001796C6 /* SearchRepositoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE917217166C6001796C6 /* SearchRepositoriesAPI.swift */; };
+		59DAE91A217169D8001796C6 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE919217169D8001796C6 /* UIViewController+Extension.swift */; };
+		59DAE91D21716A28001796C6 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE91C21716A28001796C6 /* LoadingViewController.swift */; };
+		59DAE91F21716A31001796C6 /* LoadingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE91E21716A31001796C6 /* LoadingView.storyboard */; };
+		59DAE925217175E7001796C6 /* EmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAE923217175E7001796C6 /* EmptyTableViewCell.swift */; };
+		59DAE926217175E7001796C6 /* EmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE924217175E7001796C6 /* EmptyTableViewCell.xib */; };
+		59DAE92921717D63001796C6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59DAE92B21717D63001796C6 /* Localizable.strings */; };
 		ACB5CE3A373CCEB21BEE39BA /* Pods_Github_BrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F790905B9497F0BDCB1BCB99 /* Pods_Github_BrowserUITests.framework */; };
 		DDEA69C6216F7C4D004BED2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA69C5216F7C4D004BED2A /* AppDelegate.swift */; };
 		DDEA69CD216F7C4F004BED2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEA69CC216F7C4F004BED2A /* Assets.xcassets */; };
@@ -70,6 +78,16 @@
 		59DAE90C217151A6001796C6 /* SearchRepositories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchRepositories.storyboard; sourceTree = "<group>"; };
 		59DAE90E21715991001796C6 /* SearchRepositoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesTableViewCell.swift; sourceTree = "<group>"; };
 		59DAE90F21715991001796C6 /* SearchRepositoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchRepositoriesTableViewCell.xib; sourceTree = "<group>"; };
+		59DAE91221716657001796C6 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		59DAE917217166C6001796C6 /* SearchRepositoriesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoriesAPI.swift; sourceTree = "<group>"; };
+		59DAE919217169D8001796C6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		59DAE91C21716A28001796C6 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		59DAE91E21716A31001796C6 /* LoadingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoadingView.storyboard; sourceTree = "<group>"; };
+		59DAE923217175E7001796C6 /* EmptyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableViewCell.swift; sourceTree = "<group>"; };
+		59DAE924217175E7001796C6 /* EmptyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTableViewCell.xib; sourceTree = "<group>"; };
+		59DAE92A21717D63001796C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		59DAE92C21717D73001796C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		59DAE92D21717D74001796C6 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		62221685DA323468DB7B0085 /* Pods-Github Browser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Github Browser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Github Browser/Pods-Github Browser.debug.xcconfig"; sourceTree = "<group>"; };
 		B603FFA693745F9535EA6E28 /* Pods_Github_Browser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Github_Browser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEA69C2216F7C4D004BED2A /* Github Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Github Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +148,7 @@
 			children = (
 				DDEA69C5216F7C4D004BED2A /* AppDelegate.swift */,
 				DDEA69CC216F7C4F004BED2A /* Assets.xcassets */,
+				59DAE92B21717D63001796C6 /* Localizable.strings */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,8 +156,8 @@
 		59DAE8E42171130E001796C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				59DAE8EC2171134C001796C6 /* Scenes */,
 				59DAE8EB21711347001796C6 /* Common */,
+				59DAE8EC2171134C001796C6 /* Scenes */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				59DAE8FA21714BAC001796C6 /* String+Extension.swift */,
+				59DAE91221716657001796C6 /* UIAlertController+Extension.swift */,
+				59DAE919217169D8001796C6 /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -173,6 +194,7 @@
 		59DAE8E821711329001796C6 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				59DAE914217166A1001796C6 /* Scenes */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -196,6 +218,8 @@
 		59DAE8EB21711347001796C6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				59DAE922217175D4001796C6 /* EmptyTableViewCell */,
+				59DAE91B21716A0D001796C6 /* LoadingView */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -268,6 +292,48 @@
 			children = (
 			);
 			path = DetailRepository;
+			sourceTree = "<group>";
+		};
+		59DAE914217166A1001796C6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				59DAE915217166A5001796C6 /* SearchRepositories */,
+				59DAE916217166AF001796C6 /* DetailRepository */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		59DAE915217166A5001796C6 /* SearchRepositories */ = {
+			isa = PBXGroup;
+			children = (
+				59DAE917217166C6001796C6 /* SearchRepositoriesAPI.swift */,
+			);
+			path = SearchRepositories;
+			sourceTree = "<group>";
+		};
+		59DAE916217166AF001796C6 /* DetailRepository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DetailRepository;
+			sourceTree = "<group>";
+		};
+		59DAE91B21716A0D001796C6 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				59DAE91C21716A28001796C6 /* LoadingViewController.swift */,
+				59DAE91E21716A31001796C6 /* LoadingView.storyboard */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		59DAE922217175D4001796C6 /* EmptyTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				59DAE923217175E7001796C6 /* EmptyTableViewCell.swift */,
+				59DAE924217175E7001796C6 /* EmptyTableViewCell.xib */,
+			);
+			path = EmptyTableViewCell;
 			sourceTree = "<group>";
 		};
 		DDEA69B9216F7C4D004BED2A = {
@@ -430,6 +496,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = DDEA69B9216F7C4D004BED2A;
 			productRefGroup = DDEA69C3216F7C4D004BED2A /* Products */;
@@ -450,6 +517,9 @@
 			files = (
 				59DAE90D217151A6001796C6 /* SearchRepositories.storyboard in Resources */,
 				59DAE91121715991001796C6 /* SearchRepositoriesTableViewCell.xib in Resources */,
+				59DAE91F21716A31001796C6 /* LoadingView.storyboard in Resources */,
+				59DAE92921717D63001796C6 /* Localizable.strings in Resources */,
+				59DAE926217175E7001796C6 /* EmptyTableViewCell.xib in Resources */,
 				DDEA69D0216F7C4F004BED2A /* LaunchScreen.storyboard in Resources */,
 				DDEA69CD216F7C4F004BED2A /* Assets.xcassets in Resources */,
 			);
@@ -573,8 +643,11 @@
 				59DAE8F921714B87001796C6 /* RequestError.swift in Sources */,
 				59DAE90721715161001796C6 /* SearchRepositoriesModels.swift in Sources */,
 				59DAE9052171514F001796C6 /* SearchRepositoriesRouter.swift in Sources */,
+				59DAE91A217169D8001796C6 /* UIViewController+Extension.swift in Sources */,
+				59DAE91D21716A28001796C6 /* LoadingViewController.swift in Sources */,
 				59DAE90B21715195001796C6 /* SearchRepositoriesInteractor.swift in Sources */,
 				59DAE8FD21714C71001796C6 /* URLUtil.swift in Sources */,
+				59DAE91321716657001796C6 /* UIAlertController+Extension.swift in Sources */,
 				59DAE8F521714B45001796C6 /* APIWorker.swift in Sources */,
 				59DAE8F721714B6D001796C6 /* RequestResultType.swift in Sources */,
 				59DAE90321715140001796C6 /* SearchRepositoriesWorker.swift in Sources */,
@@ -582,6 +655,8 @@
 				59DAE8FB21714BAC001796C6 /* String+Extension.swift in Sources */,
 				59DAE90121715131001796C6 /* SearchRepositoriesPresenter.swift in Sources */,
 				59DAE90921715185001796C6 /* SearchRepositoriesViewController.swift in Sources */,
+				59DAE925217175E7001796C6 /* EmptyTableViewCell.swift in Sources */,
+				59DAE918217166C6001796C6 /* SearchRepositoriesAPI.swift in Sources */,
 				DDEA69C6216F7C4D004BED2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,10 +693,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		59DAE92B21717D63001796C6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59DAE92A21717D63001796C6 /* en */,
+				59DAE92D21717D74001796C6 /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		DDEA69CE216F7C4F004BED2A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DDEA69CF216F7C4F004BED2A /* Base */,
+				59DAE92C21717D73001796C6 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -633,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -694,6 +780,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

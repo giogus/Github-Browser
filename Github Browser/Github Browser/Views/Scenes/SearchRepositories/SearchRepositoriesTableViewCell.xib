@@ -76,10 +76,10 @@
                         <viewLayoutGuide key="safeArea" id="T2G-QX-GBp"/>
                     </stackView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t1i-Ut-Ne8">
-                        <rect key="frame" x="104" y="99" width="146" height="30"/>
+                        <rect key="frame" x="104" y="99" width="146" height="20"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Created By John Appleseed" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXS-dY-4fZ">
-                                <rect key="frame" x="6" y="0.0" width="134" height="30"/>
+                                <rect key="frame" x="6" y="0.0" width="134" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <color key="textColor" red="0.6705882352941176" green="0.6705882352941176" blue="0.6705882352941176" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -87,7 +87,7 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="30" id="CVt-Yv-C0x"/>
+                            <constraint firstAttribute="height" constant="20" id="CVt-Yv-C0x"/>
                             <constraint firstItem="pXS-dY-4fZ" firstAttribute="leading" secondItem="t1i-Ut-Ne8" secondAttribute="leading" constant="6" id="KXE-UG-9cJ"/>
                             <constraint firstAttribute="bottom" secondItem="pXS-dY-4fZ" secondAttribute="bottom" id="YSz-RL-D1Q"/>
                             <constraint firstAttribute="width" secondItem="pXS-dY-4fZ" secondAttribute="width" constant="12" id="eow-cI-BHc"/>

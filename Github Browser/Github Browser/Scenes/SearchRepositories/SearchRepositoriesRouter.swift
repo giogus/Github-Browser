@@ -32,9 +32,5 @@ class SearchRepositoriesRouter: NSObject, SearchRepositoriesRoutingLogic, Search
 //    func navigateToDetailRepository(source: SearchRepositoriesViewController, destination: DetailRepositoryViewController) {
 //        source.show(destination, sender: nil)
 //    }
-    
-    // MARK: Passing data
-    
-//    func passDataToListPullRequests(source: SearchRepositoriesDataStore, destination: inout DetailRepositoryDataStore) {
-//    }
+
 }

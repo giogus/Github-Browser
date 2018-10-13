@@ -45,6 +45,7 @@ enum SearchRepositories {
                 var authorImageURL: String
                 var starsCount: String
                 var forksCount: String
+                var authorName: String
             }
             var displayedRepositories: [DisplayedRepository]
             var displayedError: BaseErrorResponse?

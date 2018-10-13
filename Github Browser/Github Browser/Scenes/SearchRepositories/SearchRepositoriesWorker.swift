@@ -8,7 +8,9 @@
 
 import UIKit
 
-protocol SearchRepositoriesStore {}
+protocol SearchRepositoriesStore {
+    func fetchRepositories(completion: @escaping (RequestResultType<SearchRepositories.FetchRepositories.Response>) -> ())
+}
 
 class SearchRepositoriesWorker {
     
@@ -16,5 +18,18 @@ class SearchRepositoriesWorker {
     
     init (searchRepositoriesStore: SearchRepositoriesStore){
         self.searchRepositoriesStore = searchRepositoriesStore
+    }
+    
+    func fetchRepositories(completion: @escaping ([Repository], RequestError?) -> ()){
+        searchRepositoriesStore.fetchRepositories(completion: {  result in
+            switch result {
+            case .success(let response):
+                completion(response.repositories, nil)
+                break
+            case .failure(let requestError):
+                completion([], requestError)
+                break
+            }
+        })
     }
 }
