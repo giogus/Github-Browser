@@ -57,6 +57,7 @@
                             <outlet property="delegate" destination="78W-iN-Xbh" id="T50-87-85K"/>
                         </connections>
                     </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Repositories" largeTitleDisplayMode="always" id="8x0-Wp-Had"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wZN-PT-VKq" userLabel="First Responder" sceneMemberID="firstResponder"/>

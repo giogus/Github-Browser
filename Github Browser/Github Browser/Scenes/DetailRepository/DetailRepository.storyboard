@@ -15,11 +15,11 @@
             <objects>
                 <viewController storyboardIdentifier="DetailRepositoryViewController" title="Detail Repository" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Oyc-nH-fgD" customClass="DetailRepositoryViewController" customModule="Github_Browser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c9H-YJ-Y2d">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dg2-Uy-xhd">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
@@ -32,6 +32,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BBP-6B-XpF"/>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <connections>
                         <outlet property="webView" destination="dg2-Uy-xhd" id="EhH-Ch-nci"/>
