@@ -72,6 +72,7 @@
                     <size key="freeformSize" width="0.0" height="0.0"/>
                     <connections>
                         <outlet property="activityIndicator" destination="5hl-Z2-8ty" id="hU5-gx-75n"/>
+                        <outlet property="loadingLabel" destination="7J9-EB-7GY" id="MGt-Fz-HPi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PWq-Pr-xpW" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -1,6 +1,6 @@
 //
 //  DetailRepositoryWorker.swift
-//  
+//
 //
 //  Created by Gustavo Severo on 13/10/18.
 //
